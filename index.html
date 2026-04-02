@@ -1,1 +1,50 @@
-
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>SCP財団ガチャ</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+      }
+      #viewport {
+        position: relative;
+        overflow: hidden;
+        container-type: size;
+        width: 100%;
+        height: 100%;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      @media (min-width: 500px) {
+        html, body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        #viewport {
+          aspect-ratio: 16 / 9;
+          width: min(100vw, 100vh * 16 / 9);
+          height: min(100vh, 100vw * 9 / 16);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/n_djamena-af2026/assets/index-Cz72Hr_y.js"></script>
+    <link rel="stylesheet" crossorigin href="/n_djamena-af2026/assets/index-DClhG0RX.css">
+  </head>
+  <body>
+    <div id="viewport">
+      <div id="root"></div>
+    </div>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"f7827ba104fb4d12bd7d99c0ffbae8f4","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
