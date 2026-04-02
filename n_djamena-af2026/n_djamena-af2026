@@ -38,8 +38,8 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/n_djamena-af2026/assets/index-Cz72Hr_y.js"></script>
-    <link rel="stylesheet" crossorigin href="/n_djamena-af2026/assets/index-DClhG0RX.css">
+    <script type="module" crossorigin src="./n_djamena-af2026/assets/index-Cz72Hr_y.js"></script>
+    <link rel="stylesheet" crossorigin href="./n_djamena-af2026/assets/index-DClhG0RX.css">
   </head>
   <body>
     <div id="viewport">
